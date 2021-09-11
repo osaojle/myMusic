@@ -1,0 +1,55 @@
+.search{
+  min-width: 450px;
+  border-radius: 30px;
+  margin-right: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  min-height: 50px;
+}
+headerbar{
+  border: 0;
+  background: black;
+}
+window{
+  background: rgba(0,0,0,0.9);
+}
+.scale{
+  margin-top: 10px;
+  min-width: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+button{
+  border: 0;
+  transition: 0.3s;
+  color:gray;
+  min-width: 50px;
+  background: rgba(255,255,255,0.1)
+}
+button:hover{
+  color:white;
+}
+.toggle{
+  transition: 1s;
+}
+.toggle:active{
+  background: rgba(100,100,255,1);
+  color: white;
+}
+.horizontal>.text-button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  border-radius: 30px;
+  min-height: 40px;
+  outline: 0;
+  min-width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+}
+scale.horizontal{
+	font-size:0;
+	margin-top:10px;
+}
